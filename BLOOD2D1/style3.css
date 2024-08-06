@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+*{
+
+    margin: 0; padding: 0; box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+.banner
+{
+
+ position: relative;
+ min-height: 50vh;
+ background: url(icon15.jpg);
+ background-size: cover;
+ background-position: right;
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+
+}
+.banner h2{
+
+font-size: 5em;
+color: #6b0c0c;
+font-weight: 500;
+line-height: 1.5em;
+
+
+
+
+}
+header{
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 40px 100px;
+    
+    
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: centre;
+    transition: 0.5s;
+    
+    
+    
+    
+    
+    
+    }
+    header.sticky
+    {
+    
+        background: #fff;
+        padding: 20px 100px;
+        box-shadow: 0 5px 20px rgb(0, 0, 0,0.1);
+    }
+    header .logo
+    {
+    
+    position: fixed;
+    
+    
+    
+    
+    }
+    
+    header ul{
+    
+    position: relative;
+    display: flex;
+    
+    
+    
+    }
+    header ul li{
+    
+    position: relative;
+    list-style: none;
+    
+    
+    }
+    header ul li a{
+    
+    position: relative;
+    display: inline-block;
+    margin: 0 15px;
+    color: rgb(228, 32, 32);
+    text-decoration: none;
+    font-size: 1.6em;
+    font-weight: 700;
+    
+    
+    
+    }
+    header ul li a:hover,
+    header ul li a .active
+    {
+    
+    background: #e9d4d4;
+    
+    
+    
+    }
+    header.sticky ul li a
+    {
+    
+    color: #555555;
+    
+    }
+    .btn
+    {
+      position: relative;
+      background: blueviolet;
+      display: inline-block;
+      color: #fff;
+      margin-top: 20px;
+      padding: 10px 30px;
+      font-size: 18px;
+      text-transform: uppercase;
+      text-decoration: none;
+      letter-spacing: 2px;
+      font-weight: 500;
+      z-index: 1;
+      transition: 0.1s;
+    
+    
+    
+    
+    }
+    .form-control
+    {
+          font-size: 1.5em; 
+          margin-left: 50px;     
+        
+    }
+    label
+    {
+        font-size: 1.5em;
+    }
+    .container
+    {
+        margin-left: 500px;
+        margin-top: 50px;
+        margin-right: 100px;
+    }
